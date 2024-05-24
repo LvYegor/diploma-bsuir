@@ -1,0 +1,25 @@
+#pragma once
+#include "pins.h"
+
+#define DHT_PORT SENS1  
+#define DHT_TYPE DHT22
+
+#define BME_ADDR 0x76
+
+#define LIGHT_SENSOR_ENABLED
+#define SOIL_MOISTURE_PORT SENS4
+#define WATER_LEVEL_PORT SENS3
+#define RAIN_PORT SENS2 
+#define LIGHT_PORT RELAY3
+#define PUMP_PORT RELAY4
+
+#define SERVO_MIN_PULSE 500  
+#define SERVO_MAX_PULSE 2500 
+
+#define DRIVER_LEVEL 1              
+#define LCD_BACKLIGHT_TIMEOUT 60    
+#define CRITICAL_HIGH_TEMPERATURE 50
+#define CRITICAL_LOW_TEMPERATURE -25
+
+#define WIRE_OVERCLOCK 400000  
+#define LCD_ADDR 0x27          
